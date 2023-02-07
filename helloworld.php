@@ -8,6 +8,9 @@
             echo"hello world\n";
             $x=5;
 echo $x;
+echo $hello;
+
+//github test 
 
 
 

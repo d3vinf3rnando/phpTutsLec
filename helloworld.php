@@ -8,7 +8,7 @@
             echo"hello world\n";
             $x=5;
 echo $x;
-echo $hello;
+echo "print hello world"
 
 //github test 
 

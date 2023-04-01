@@ -1,6 +1,6 @@
 <?php
-$dbhost = 'localhost'; $dbuser = 'w1868558';
-$dbpass = '123';
+$dbhost = 'localhost'; $dbuser = 'root';
+$dbpass = '';
 $dbname = 'w1868558_0';
 //create a DB connection
 $conn = mysqli_connect($dbhost, $dbuser, $dbpass, $dbname); //if the DB connection fails, display an error message and exit if (!$conn)

@@ -11,9 +11,6 @@ echo $x;
 echo "print hello world"
 
 //github test 
-
-
-
 $name= "saman";
 echo"hello my name is $name \n";
 
@@ -41,9 +38,21 @@ do{
 
 echo" ";
 
+
+<form action="checklogin.php" method="post">
+    Username:<br><input type="text" name="username"/>
+    <br><br>
+    Password:<br><input type="password" name="pwd" />
+    <br><br>
+    <input class="button" type="submit" value="Login"/>
+    <input class="button" type="button" name="cancel" value="Cancel" onClick="window.location='index.php';" />
+</form>
+
 //array
 $numbersa=array("one","two","three");
 echo ($numbersa);
             ?>
+
+
         </body>
 </html>
